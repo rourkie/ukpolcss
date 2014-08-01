@@ -1,0 +1,102 @@
+/*
+UKPOL CSS
+version:   1.0 
+date:      01/08/2014 
+author:    Richard Allen 
+email:     rourkie@gmail.com 
+website:   http://www.richardallen.co.uk
+This is accurate as of 1st August 2014, with department colours being taken from gov.uk, Party colours being taken from brand guidelines
+and Executive colours being taken from a mix of brand guidelines and their websites.
+
+Some of the fonts are licensed - so only freely available fonts are used below.
+
+*/
+
+/*Fonts*/
+
+
+@font-face{
+	font-family: "Futura";
+	src: url(../fonts/futura/Futura.ttf);
+}
+@font-face{
+	font-family: "Gill Sans";
+	src: url(../fonts/gill-sans/gillsans.ttf);
+}
+
+@font-face{
+	font-family: "libre baskerville";
+	src: url(../fonts/libre-baskerville/LibreBaskerville-Regular.otf);
+}
+
+@font-face{
+	font-family: "Lucida Sans Unicode";
+	src: url(../fonts/Lucida-Sans-Unicode/lsansuni.ttf);
+}
+
+@font-face{
+	font-family: "Open Sans";
+	src: url(../fonts/open-sans/OpenSans-Regular.ttf);
+}
+
+
+
+
+/*Political Parties*/
+.conservative-main {background:#0087dc; color: #fff; font-family: "Lucida Sans Unicode"}
+.conservative-second {background:#6ed700; color: #fff; font-family: "Lucida Sans Unicode"}
+.libdem-main {background:#FDBB30; color: #fff; font-family: arial}
+.libdem-second {background:#00929F; color: #fff; font-family: arial}
+.labour-main {background:#d50000; color: #fff; font-family: 'Libre Baskerville', serif;}
+.labour-second {background:#9B301C; color: #fff; font-family: 'Libre Baskerville', serif;}
+.snp-main {background:#FFF95D; color: #444; font-family: Helvetica}
+.snp-second {background:#0A2C50; color: #fff; font-family: Helvetica}
+.plaid-main {background:#3F8428; color: #fff; font-family: Helvetica}
+.plaid-second {background:#e1cc00; color: #fff; font-family: Helvetica}
+.green-main {background:#008066; color: #fff; font-family: "Open Sans"}
+.green-second {background:#8dc63f; color: #fff; font-family: "Open Sans"}
+.ukip-main {background:#EFE600; color: #444; font-family: Arial}
+.ukip-second {background:#B3009D; color: #fff; font-family: Arial}
+
+/*Executives*/
+.parliament {background-color: #085196; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif; }
+.house-of-lords-main {background-color: #9c132e; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.house-of-lords-second {background-color: #2D2926; color: #fff;font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.house-of-commons-main {background-color: #317023; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.house-of-commons-second {background-color: #A45A2A; color: #fff; font-family: "Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.scottish-gov-main {background-color: #1d93ce; color: #fff; font-family: verdana}
+.scottish-gov-second {background-color: #dfdad4; color: #444; font-family: verdana}
+.scottish-parl-main {background-color: #663399; color: #fff; font-family: "Futura"}
+.scottish-parl-second {background-color: #CCCCCC; color: #444; font-family: "Futura"}
+.welsh-gov-main {background-color: #aa1111; color: #fff; font-family: Arial}
+.welsh-gov-second {background-color: #660027; color: #fff; font-family: Arial}
+.welsh-ass-main {background-color: #970957; color: #fff; font-family: "Cynulliad Serif"}
+.welsh-ass-second {background-color: #44545e; color: #fff; font-family: "Cynulliad Serif"}
+.ni-exec-main {background-color: #142062; color: #fff; font-family: Georgia}
+.ni-exec-second {background-color: #157c70; color: #fff; font-family: Georgia}
+.ni-ass-main {background-color: #4a82c3; color: #fff; font-family: Arial}
+.ni-ass-second {background-color: #f7f7f7; color: #444; font-family: Arial}
+
+
+/*UK Government Departments*/
+.treasury {background-color: #af292e; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.cabinet-office {background-color: #005abb; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.education {background-color: #003a69; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.transport {background-color: #006c56; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.home-office {background-color: #9325b2; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.health {background-color: #00ad93; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.ministry-of-justice {background-color: #231f20; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.ministry-of-defence {background-color: #4d2942; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.foreign-and-commonwealth-office {background-color: #003e74; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.dept-for-communities-and-local-gov {background-color: #00857e; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.dept-for-energy-and-climate-change {background-color: #009ddb; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.dept-for-culture-media-and-sport {background-color: #d40072; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.dept-for-environment-food-and-rural-affairs {background-color: #898700; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.dept-for-work-and-pensions {background-color: #00beb7; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.dept-for-business-innovation-and-skills {background-color: #003479; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.dept-for-international-development {background-color: #002878; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.attorney {background-color: #9f1888; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.advocate-general-scotland {background-color: #002663; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.scotland-office {background-color: #002663; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.export-finance {background-color: #005747; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}
+.wales-office {background-color: #a33038; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif;}

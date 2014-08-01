@@ -1,0 +1,265 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>UKPOL CSS</title>
+	<meta name="description" content="A CSS template for UK Political parties, executives and Government Departments">
+  	<meta name="author" content="@pmrourkie">
+	<meta property="og:image" content="../img/bg.png"/>
+
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/ukpol.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<a href="https://github.com/rourkie/ukpolcss/fork"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/121cd7cbdc3e4855075ea8b558508b91ac463ac2/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png"></a>
+
+<article>
+	<h1>UKPOL CSS</h1>
+	<h3>A CSS template for UK political parties, Executives and Government Department web colours.</h3>
+	<p>This is accurate as of 1st August 2014, with department colours being taken from gov.uk, Party colours being taken from party brand guidelines and Executive colours being taken from a mix of brand guidelines and their websites. Some of the fonts are licensed - so only freely available fonts are used below. If you notice any errors, feel free to tweet me: <a href="http://twitter.com/pmrourkie">@pmrourkie</a> or e-mail me: rich [at] richardallen.co.uk </p>
+
+<center>
+<a href="https://github.com/rourkie/ukpolcss/ukpolcss" class="button grn"> <i class="fa fa-download"></i> Download</a>
+<a href="#cheat" class="button blue"><i class="fa fa-file-text-o"></i> Cheat Sheet</a>
+</center>
+	<p>Created by <a href="http://twitter.com/pmrourkie">@pmrourkie</a> and under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
+	
+	<center>
+	</br>
+
+<a href="https://github.com/rourkie/ukpolcss/stargazers" class="github-button" data-icon="octicon-star" data-style="mega">Star</a>
+<a href="https://github.com/rourkie/ukpolcss/fork" class="github-button" data-icon="octicon-git-branch" data-style="mega">Fork</a>
+<a href="https://github.com/rourkie/ukpolcss/archive/master.zip" class="github-button" data-icon="octicon octicon-cloud-download" data-style="mega">Download</a>
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="pmrourkie" data-size="large" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+
+</center>
+
+</br>
+</article>
+
+<article>
+	<h2>Get Started</h2>
+	<p>It's pretty simple to use this, just follow the below to get going;
+		<ul>
+		<li>1. Download <code>ukpol.css</code> and copy it to your /css folder</li>
+		<li>2. In the <code>&lt;head&gt;</code> of your site reference ukpol;</br>
+			&nbsp;&nbsp;&nbsp;&nbsp;<pre>&lt;link rel="stylesheet" href="path/to/ukpol/css/ukpol.css"&gt;</pre></li>
+		<li>3. Check out the examples below!</li>
+	</ul>
+	</p>
+</article>
+
+
+<article>
+
+<h2>Example Use</h2>
+<p>Below is an example using buttons. The class is set to the desired department/party, class="n", within the &lt;btn&gt; tag</p>
+<center>
+	<pre>&lt;btn class="parliament"&gt;</pre>
+</br>
+</center>
+<p>
+	<btn class="parliament">Parliament</btn> <btn class="house-of-commons-main">House of Commons</btn> <btn class="house-of-lords-main">House of Lords</btn></p>
+</p>
+	<p>And here, creating a div with the class set as one of the main political parties.</p>
+	<center>
+	<pre>&lt;section class="conservative-main"&gt; Some Example Text &lt;/section &gt;</pre>
+</center>
+	<section class="conservative-main">The Conservative Party, colloquially referred to as the Tory Party or the Tories, is a centre-right political party in the United Kingdom that states that it espouses the philosophies of conservatism and British unionism</section>
+	<section class="labour-main">The Labour Party is a centre-left political party in the United Kingdom. It grew out of the trade union movement and socialist political parties of the nineteenth century and has been described as a broad church</section>
+	<section class="libdem-main">The Liberal Democrats are a social-liberal. political party in the United Kingdom.
+
+The party was formed in 1988 by a merger of the Liberal Party and the Social Democratic Party (SDP).</section>
+
+
+</article>
+
+<article id="cheat">
+	<h2>Cheat Sheet</h2>
+
+<h3>Political Parties</h3>
+	<table>
+			<thead>
+				<th>Party</th>
+				<th>Main</th>
+				<th>Second</th>
+			</thead>
+			<tbody>
+				<tr>
+				<td>Conservative Party</td>
+				<td class="conservative-main">.conservative-main</td>
+				<td class="conservative-second">.conservative-second</td>
+				</tr>
+				<tr>
+				<td>Labour Party</td>
+				<td class="labour-main">.labour-main</td>
+				<td class="labour-second">.labour-second</td>
+				</tr>
+				<tr>
+				<td>Liberal Democrats</td>
+				<td class="libdem-main">.libdem-main</td>
+				<td class="libdem-second">.libdem-second</td>
+				</tr>
+				<tr>
+				<td>UKIP</td>
+				<td class="ukip-main">.ukip-main</td>
+				<td class="ukip-second">.ukip-second</td>
+				</tr>
+				<tr>
+				<td>Scottish National Party</td>
+				<td class="snp-main">.snp-main</td>
+				<td class="snp-second">.snp-second</td>
+				</tr>
+				<tr>
+				<td>Green Party</td>
+				<td class="green-main">.green-main</td>
+				<td class="green-second">.green-second</td>
+				</tr>
+				<tr>
+				<td>Plaid Cymru</td>
+				<td class="plaid-main">.plaid-main</td>
+				<td class="plaid-second">.plaid-second</td>
+			</tr>
+			</tbody>
+	</table>
+
+<h3>Executives</h3>
+	<table>
+			<thead>
+				<th>Executive</th>
+				<th>Main</th>
+				<th>Second</th>
+			</thead>
+			<tbody>
+				<tr>
+				<td>Parliament</td>
+				<td class="parliament">.parliament</td>
+				<td class="parliament"></td>
+				</tr>
+				<tr>
+				<td>House of Commons</td>
+				<td class="house-of-commons-main">.house-of-commons-main</td>
+				<td class="house-of-commons-second">.house-of-commons-second</td>
+				</tr>
+				<tr>
+				<td>House of Lords</td>
+				<td class="house-of-lords-main">.house-of-lords-main</td>
+				<td class="house-of-lords-second">.house-of-lords-second</td>
+				</tr>
+				<tr>
+				<td>Scottish Government</td>
+				<td class="scottish-gov-main">.scottis-gov-main</td>
+				<td class="scottis-gov-second">.scottish-gov-second</td>
+				</tr>
+				<tr>
+				<td>Scottish Parliament</td>
+				<td class="scottish-parl-main">.scottish-parl-main</td>
+				<td class="scottish-parl-second">.scottish-parl-second</td>
+				</tr>
+				<tr>
+				<td>Welsh Government</td>
+				<td class="welsh-gov-main">.welsh-gov-main</td>
+				<td class="welsh-gov-second">.welsh-gov-second</td>
+				</tr>
+				<tr>
+				<td>Welsh Assembly</td>
+				<td class="welsh-ass-main">.welsh-ass-main</td>
+				<td class="welsh-ass-second">.welsh-ass-second</td>
+				</tr>
+				<td>Northern Ireland Executive</td>
+				<td class="ni-exec-main">.ni-exec-main</td>
+				<td class="ni-exec-second">.ni-exec-second</td>
+				</tr>
+				<td>Northern Ireland Assembly</td>
+				<td class="ni-ass-main">.ni-ass-main</td>
+				<td class="ni-ass-second">.ni-ass-second</td>
+				</tr>
+			</tbody>
+	</table>
+<h3>Uk Government Departments</h3>
+		<table>
+			<thead>
+				<th>Department</th>
+				<th>Main</th>
+			</thead>
+			<tbody>
+				<tr>
+				<td>Treasury</td>
+				<td class="treasury">.treasury</td>
+				</tr>
+				<tr>
+				<td>Cabinet Office</td>
+				<td class="cabinet-office">.cabinet-office</td>
+				</tr>
+				<td>Attorney General's Office</td>
+				<td class="attorney">.attorney</td>
+				</tr>
+				<tr>
+				<td>Department for Education</td>
+				<td class="education">.education</td>
+				</tr>
+				<tr>
+				<td>Department for Transport Government</td>
+				<td class="transport">.transport</td>
+				</tr>
+				<tr>
+				<td>Home Office</td>
+				<td class="home-office">.home-office</td>
+				</tr>
+				<tr>
+				<td>Department of Health</td>
+				<td class="health">.health</td>
+				</tr>
+				<tr>
+				<td>Ministry of Justice</td>
+				<td class="ministry-of-justice">.ministry-of-justice</td>
+				</tr>
+				<td>Ministry of Defence</td>
+				<td class="ministry-of-defence">.ministry-of-defence</td>
+				</tr>
+				<td>Foreign & Commonwealth Office</td>
+				<td class="foreign-and-commonwealth-office">.foreign-and-commonwealth-office</td>
+				</tr>
+				<td>Department for Communities and Local Government</td>
+				<td class="dept-for-communities-and-local-gov">.dept-for-communities-and-local-gov</td>
+				</tr>
+				<td>Department for Energy and Climate Change</td>
+				<td class="dept-for-energy-and-climate-change">.dept-for-energy-and-climate-change</td>
+				</tr>
+				<td>Department for Culture, Media and Sport</td>
+				<td class="dept-for-culture-media-and-sport">.dept-for-culture-media-and-sport</td>
+				</tr>
+				<td>Department for Environment, food and rural affairs</td>
+				<td class="dept-for-environment-food-and-rural-affairs">.dept-for-environment-food-and-rural-affairs</td>
+				</tr>
+				<td>Department for Work and Pensions</td>
+				<td class="dept-for-work-and-pensions">.dept-for-work-and-pensions</td>
+				</tr>
+				<td>Department for Business, Innovation and Skills</td>
+				<td class="dept-for-business-innovation-and-skills">.dept-for-business-innovation-and-skills</td>
+				</tr>
+				<td>Department for International Development</td>
+				<td class="dept-for-international-development">.dept-for-international-development</td>
+				</tr>
+				<td>Office for the Advocate General for Scotland</td>
+				<td class="advocate-general-scotland">.advocate-general-scotland</td>
+				</tr>
+				<td>Scotland Office</td>
+				<td class="scotland-office">.scotland-office</td>
+				</tr>
+				<td>UK Export Finance</td>
+				<td class="export-finance">.export-finance</td>
+				</tr>
+				<td>Wales Office</td>
+				<td class="wales-office">.wales-office</td>
+				</tr>
+			</tbody>
+	</table>
+
+</artice>
+
